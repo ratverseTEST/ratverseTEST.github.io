@@ -85,7 +85,7 @@ function refreshData(){
     var supplyElem = document.getElementById('supply');
     supply(function(result){
         rawStr = numberWithCommas(Number(result).toFixed(0));
-        supplyElem.textContent = stripDecimals(rawStr, 0) + ' out of 10000 minted';
+        supplyElem.textContent = stripDecimals(rawStr, 0) + ' out of 20 minted';
     });
 
     var divBalanceElem = document.getElementById('divs-balance');
@@ -99,7 +99,7 @@ function refreshData(){
 function mint2(){
     let BNBspenddoc=document.getElementById('ethtospend')
     let amountNFT= Math.ceil((BNBspenddoc.value)*1)
-let bnbConvert = (web3.utils.toWei(BNBspenddoc.value))/3
+let bnbConvert = (web3.utils.toWei(BNBspenddoc.value))/30
     console.log(bnbConvert, " BNB")
     console.log(amountNFT," NFT")
     mint(amountNFT,bnbConvert,function(){

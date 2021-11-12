@@ -16,7 +16,7 @@ async function getNFTsForContract() {
     let options = {
         chain: 'bsc testnet',
         address: userAccount,
-        token_address: '0x6456D03aa19C4D2A0A1213DF5a0A49C9083DF13a'
+        token_address: '0xC5F91B70519df62a4691218C5cF808e2F721d698'
     }
 
     console.log(getAccount.userAccount)
