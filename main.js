@@ -1,6 +1,5 @@
 var modal
 var modalContent
-
 var lastUpdate=new Date().getTime()
 var modalID=0
 var currentAddr = '';
