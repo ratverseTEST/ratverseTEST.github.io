@@ -13,12 +13,7 @@ function contractBalance(callback) {
 	});
 }
 
-function multiplyBy()
-{
-        num1 = price/1e3;
-        num2 = document.getElementById('ethtospend').value;
-        document.getElementById("result").innerHTML = Math.round((num1 * num2)*100)/100;
-}
+
 
 function mint(amountNFT, BNB, callback) {
 	console.log("start")

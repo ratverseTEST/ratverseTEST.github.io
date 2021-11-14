@@ -38,10 +38,12 @@ window.addEventListener('load', async function() {
 
 function controlLoop(){
     refreshData()
+    multiplyBy()
     setTimeout(controlLoop,2500)
 }
 function controlLoopFaster(){
     refreshData()
+    multiplyBy()
     setTimeout(controlLoopFaster,30)
 }
 
@@ -91,9 +93,16 @@ function refreshData(){
     var divBalanceElem = document.getElementById('divs-balance');
     claimelbleDivsMan(function(result){
         rawStr = numberWithCommas(Number(result).toFixed(3));
-        divBalanceElem.textContent = stripDecimals(rawStr, 3) + '  claimable BNB';
+        divBalanceElem.textContent = stripDecimals(rawStr, 3);
     });
 ;
+}
+
+function multiplyBy()
+{
+        num1 = price/1e3;
+        num2 = document.getElementById('ethtospend').value;
+        document.getElementById("result").innerHTML = Math.round((num1 * num2)*100)/100;
 }
 
 function mint2(){

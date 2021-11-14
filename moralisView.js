@@ -31,16 +31,12 @@ async function getNFTsForContract() {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-            
-
-                $("#content").html($("#content").html() + "<h2>" + data.name);
-
-       
-                    
-                $("#content").html($("#content").html() + "<h3>" + data.description + "</h3>");
-      
+                // $("#content").html($("#content").html() + "<h2>" + data.name); 
+                // $("#content").html($("#content").html() + "<h3>" + data.description + "</h3>");
                 $("#content").html($("#content").html() + "<img src='" + data.image + "'" +
                     size + "></img>");
+
+                    // $("#content").html($("#content").html() + "<img src='" + data.image + "'" + size + "></img>");
             });
 
     })

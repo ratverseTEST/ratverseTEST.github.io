@@ -1,0 +1,310 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 1350px) and (max-width: 1600px) { 
+   .welcome {
+    background-color: #060F18;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.welcome-left-heading p {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.header-wrapper ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.welcome .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.welcome-right {
+   margin-top: 45px;
+}
+
+.nft-images-one img {
+    display: block;
+    width: 100%;
+}
+
+.nft-images-one {
+   width: 32%;
+}
+
+.clam-amount a {
+    font-size: 14px;
+    border: 3px solid #7B6B85;
+    padding: 12px 15px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.bnblance p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+   .header-wrapper {
+   display: block;
+}
+
+.bar {
+   margin-left: auto;
+}
+
+.header-wrapper ul {
+   display: none;
+   margin-top: 15px;
+}
+
+.header {
+   padding: 10px 15px;
+}
+
+.header-wrapper ul li {
+   display: block;
+}
+
+.header-wrapper ul li a {
+    display: block;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.welcome .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.welcome-right {
+   margin-top: 45px;
+}
+
+.nft-images-one img {
+    display: block;
+    width: 100%;
+}
+
+.nft-images-one {
+   width: 32%;
+}
+
+.clam-amount a {
+    font-size: 14px;
+    border: 3px solid #7B6B85;
+    padding: 12px 15px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.bnblance p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+
+.header-wrapper {
+   display: block;
+}
+
+.bar {
+   margin-left: auto;
+}
+
+.header-wrapper ul {
+   display: none;
+   margin-top: 15px;
+}
+
+.header {
+   padding: 10px 15px;
+}
+
+.header-wrapper ul li {
+   display: block;
+}
+
+.header-wrapper ul li a {
+    display: block;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.welcome .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.welcome-right {
+   margin-top: 45px;
+}
+
+.nft-images-one img {
+    display: block;
+    width: 100%;
+}
+
+.nft-images-one {
+   width: 32%;
+}
+
+.clam-amount a {
+    font-size: 14px;
+    border: 3px solid #7B6B85;
+    padding: 12px 15px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.bnblance p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

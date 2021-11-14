@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {	
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #230833;
+	color: #333333;	
+}
+
+a:hover {text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+/* -- header area start -- */
+.header .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header-wrapper ul li {
+    display: inline-block;
+}
+
+.header-wrapper ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 14px 50px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.header-wrapper ul li:first-child a {
+    font-weight: 700;
+    background-color: #09020D;
+}
+
+.header-wrapper ul li a:hover {
+    font-weight: 700;
+    background-color: #09020D;
+}
+
+/* -- header area end -- */
+
+/* -- Welcome area start -- */
+.welcome .container-fluid {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.welcome-left-heading h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.welcome-left-heading p {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.welcome-left-heading h6 {
+    font-size: 22px;
+    line-height: 1.4;
+    color: #fff;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.welcome-slider-box {
+    width: 220px;
+    background-color: #A79CAD;
+    border-radius: 10px;
+}
+
+.handle-counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome-slider-box input {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    font-size: 52px;
+    font-weight: 700;
+    color: #010406;
+    text-align: center;
+    line-height: .8;
+    padding-left: 15px;
+}
+
+.welcome-slider-box button {
+    display: inline-block;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    padding: 0px 0px;
+}
+
+.welcome-slider-box button img {
+    display: inline-block;
+    width: 24px;
+    margin: 8px 0px;
+}
+
+.welcome-slider-box button:hover {
+    background-color: transparent;
+}
+
+.welcome-bnb h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    margin: 30px 0px;
+}
+
+.welcome-bnb a {
+    display: inline-block;
+    background-color: #230833;
+    font-size: 20px;
+    border: 4px solid #7B6B85;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 5px 58px;
+}
+
+.welcome {
+    background-color: #060F18;
+    padding-top: 85px;
+    padding-bottom: 150px;
+}
+
+.welcome-slider {
+    margin-top: 45px;
+}
+
+.nft p#held {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: auto;
+    max-width: 900px;
+}
+
+.nft-images {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: auto;
+}
+
+.nft-images-one img {
+    display: block;
+    width: 265px;
+}
+
+.clam-amount p {
+    margin-bottom: 0;
+    background-color: #A79CAD;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: right;
+    padding: 1px 20px;
+}
+
+.clam-amount a {
+    display: inline-block;
+    background-color: #230833;
+    font-size: 20px;
+    border: 4px solid #7B6B85;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 7px 58px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+
+.clam-amount {
+    position: relative;
+}
+
+.bnblance p {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 700;
+    color: #010406;
+    border-radius: 8px;
+    background-color: #D6D4CD;
+    padding: 3px 20px;
+}
+
+.bnblance p span {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.bnblance , .clam {
+    margin-top: 45px;
+    max-width: 900px;
+    margin-left: auto;
+}
+
+.bar {
+    width: 30px;
+    cursor: pointer;
+}
+
+.bar span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 5px 0px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nft-images-one {
+    width: 32%;
+}
+
+.nft-images-one img {
+    width: 100%
+}
+
+
+
+/* -- Welcome area end -- */
+
+
+
+
+
+
+
+
+
+
+
