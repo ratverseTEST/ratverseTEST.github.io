@@ -29,33 +29,28 @@
 		<script src="https://npmcdn.com/moralis@0.0.35/dist/moralis.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		
-		
 	</head>
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
 
-			<!-- header area start -->
-			<div class="header">
-				<div class="container-fluid">
-					<div class="header-wrapper">
-						<div class="bar d-block d-md-none">
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="myNFTs.html">My NFTs</a></li>
-							<li><a href="#">Marketplace</a></li>
-							<li><a href="#">Roadmap</a></li>
-						</ul>						
+	<body>
+		<!-- header area start -->
+		<div class="header">
+			<div class="container-fluid">
+				<div class="header-wrapper">
+					<div class="bar d-block d-md-none">
+						<span></span>
+						<span></span>
+						<span></span>
 					</div>
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">My NFTs</a></li>
+						<li><a href="#">Marketplace</a></li>
+						<li><a href="#">Roadmap</a></li>
+					</ul>						
 				</div>
 			</div>
-			<!-- header area end -->
+		</div>
+		<!-- header area end -->
 
 			<!-- Welcome area start -->
 			<div class="welcome">
@@ -74,8 +69,8 @@
 											<div class="handle-counter" id="handleCounter3">
 												<input type="number" oninput="multiplyBy()" id="ethtospend" step="1"type="number" value="0">
 												<div class="inputupdown">						
-													<button class="counter-plus" onclick="multiplyBy()" ><img src="img/up.png" alt="images not found"></button>
-													<button class="counter-minus" onclick="multiplyBy()"><img src="img/down.png"  alt="images not found"></button>
+													<button class="counter-plus"><img src="img/up.png" alt="images not found"></button>
+													<button class="counter-minus"><img src="img/down.png"  alt="images not found"></button>
 												</div>
 											</div>
 										</div>
@@ -122,17 +117,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- Welcome area end -->
-		
-	
-		
-		
-		
-		
-		
-		
-		
-		
+			<!-- Welcome area end -->		
 		
 		<!-- Main jQuery -->
 		<script src="js/jquery-3.4.1.min.js"></script>		
@@ -185,10 +170,10 @@
 				$(".header-wrapper ul").slideToggle();
 			})
 		</script>
-			<script src="./web3.min.js"> </script>
+	
+	<script src="./web3.min.js"> </script>
 	<script src="interface.js"> </script>
 	<script src="main.js"></script>
-	<script src="../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
 	<script src="moralisView.js"></script>
 
 	</body>

@@ -79,15 +79,24 @@ ul {
     -moz-transition: all .2s ease;
 }
 
-.header-wrapper ul li:first-child a {
+.header-wrapper ul li a:hover {
+    background-color: #09020D;
+    font-weight: 700;
+}
+
+.header-wrapper ul li.active a {
     font-weight: 700;
     background-color: #09020D;
 }
 
-.header-wrapper ul li a:hover {
-    font-weight: 700;
-    background-color: #09020D;
+.welcome-bnb a:active {
+    color: grey!important;
 }
+
+.clam-amount a:active {
+    color: grey!important;
+}
+
 
 /* -- header area end -- */
 
@@ -175,10 +184,36 @@ ul {
     background-color: #230833;
     font-size: 20px;
     border: 4px solid #7B6B85;
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
     border-radius: 8px;
     padding: 5px 58px;
+    position: relative;
+    z-index: 5;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.welcome-bnb a:after {
+    content: "";
+    display: inline-block;
+    width: 0%;
+    height: 100%;
+    background: #7B6B85;
+    position: absolute;
+    border-radius: 0px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    
+}
+
+.welcome-bnb a:hover:after {
+    width: 100%;
 }
 
 .welcome {
@@ -226,13 +261,34 @@ ul {
     background-color: #230833;
     font-size: 20px;
     border: 4px solid #7B6B85;
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
     border-radius: 8px;
     padding: 7px 58px;
     position: absolute;
     top: -3px;
     left: 0;
+    z-index: 50;
+}
+
+.clam-amount a:after {
+    content: "";
+    display: inline-block;
+    width: 0%;
+    height: 100%;
+    background: #7B6B85;
+    position: absolute;
+    border-radius: 0px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.clam-amount a:hover:after {
+    width: 100%;
 }
 
 .clam-amount {
